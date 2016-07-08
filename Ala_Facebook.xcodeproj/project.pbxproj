@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F511D381D26E61D00A2F311 /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F511D371D26E61D00A2F311 /* girl.jpg */; };
+		3FB379B31D2AC30F00045C30 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB379B21D2AC30F00045C30 /* DataManager.m */; };
+		3FD0236C1D1D8D4000E8F63D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0236B1D1D8D4000E8F63D /* main.m */; };
+		3FD0236F1D1D8D4000E8F63D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0236E1D1D8D4000E8F63D /* AppDelegate.m */; };
+		3FD023771D1D8D4100E8F63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD023761D1D8D4100E8F63D /* Assets.xcassets */; };
+		3FD0237A1D1D8D4100E8F63D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD023781D1D8D4100E8F63D /* LaunchScreen.storyboard */; };
+		3FD023841D1D901300E8F63D /* ALF_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD023831D1D901300E8F63D /* ALF_ViewController.m */; };
+		8478315A203E384DA682D297 /* libPods-Ala_Facebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C092A156CB123D4C019FE39F /* libPods-Ala_Facebook.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F511D371D26E61D00A2F311 /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
+		3FB379B11D2AC30F00045C30 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		3FB379B21D2AC30F00045C30 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		3FD023671D1D8D4000E8F63D /* Ala_Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ala_Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD0236B1D1D8D4000E8F63D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FD0236D1D1D8D4000E8F63D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FD0236E1D1D8D4000E8F63D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FD023761D1D8D4100E8F63D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FD023791D1D8D4100E8F63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FD0237B1D1D8D4100E8F63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD023821D1D901300E8F63D /* ALF_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALF_ViewController.h; sourceTree = "<group>"; };
+		3FD023831D1D901300E8F63D /* ALF_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALF_ViewController.m; sourceTree = "<group>"; };
+		7D3986529D9DDCA3F94BA4F0 /* Pods-Ala_Facebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ala_Facebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ala_Facebook/Pods-Ala_Facebook.release.xcconfig"; sourceTree = "<group>"; };
+		B31BCA724AE770CDC4A6A3FE /* Pods-Ala_Facebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ala_Facebook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ala_Facebook/Pods-Ala_Facebook.debug.xcconfig"; sourceTree = "<group>"; };
+		C092A156CB123D4C019FE39F /* libPods-Ala_Facebook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ala_Facebook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FD023641D1D8D4000E8F63D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8478315A203E384DA682D297 /* libPods-Ala_Facebook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FD0235E1D1D8D4000E8F63D = {
+			isa = PBXGroup;
+			children = (
+				3FD023691D1D8D4000E8F63D /* Ala_Facebook */,
+				3FD023681D1D8D4000E8F63D /* Products */,
+				BF6CCD07FDE78D05C8C97320 /* Pods */,
+				AC63FEF72956326CBF4F7C80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FD023681D1D8D4000E8F63D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FD023671D1D8D4000E8F63D /* Ala_Facebook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FD023691D1D8D4000E8F63D /* Ala_Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				3FD0236D1D1D8D4000E8F63D /* AppDelegate.h */,
+				3FD0236E1D1D8D4000E8F63D /* AppDelegate.m */,
+				3FD023821D1D901300E8F63D /* ALF_ViewController.h */,
+				3FD023831D1D901300E8F63D /* ALF_ViewController.m */,
+				3F511D371D26E61D00A2F311 /* girl.jpg */,
+				3FD023761D1D8D4100E8F63D /* Assets.xcassets */,
+				3FD023781D1D8D4100E8F63D /* LaunchScreen.storyboard */,
+				3FD0237B1D1D8D4100E8F63D /* Info.plist */,
+				3FD0236A1D1D8D4000E8F63D /* Supporting Files */,
+				3FB379B11D2AC30F00045C30 /* DataManager.h */,
+				3FB379B21D2AC30F00045C30 /* DataManager.m */,
+			);
+			path = Ala_Facebook;
+			sourceTree = "<group>";
+		};
+		3FD0236A1D1D8D4000E8F63D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FD0236B1D1D8D4000E8F63D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC63FEF72956326CBF4F7C80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C092A156CB123D4C019FE39F /* libPods-Ala_Facebook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6CCD07FDE78D05C8C97320 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B31BCA724AE770CDC4A6A3FE /* Pods-Ala_Facebook.debug.xcconfig */,
+				7D3986529D9DDCA3F94BA4F0 /* Pods-Ala_Facebook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FD023661D1D8D4000E8F63D /* Ala_Facebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FD0237E1D1D8D4100E8F63D /* Build configuration list for PBXNativeTarget "Ala_Facebook" */;
+			buildPhases = (
+				04B71D87A2E76FB019F26D36 /* [CP] Check Pods Manifest.lock */,
+				3FD023631D1D8D4000E8F63D /* Sources */,
+				3FD023641D1D8D4000E8F63D /* Frameworks */,
+				3FD023651D1D8D4000E8F63D /* Resources */,
+				5742034A69F268D91E26D73C /* [CP] Embed Pods Frameworks */,
+				77536935DDD087637CF1605E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ala_Facebook;
+			productName = Ala_Facebook;
+			productReference = 3FD023671D1D8D4000E8F63D /* Ala_Facebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FD0235F1D1D8D4000E8F63D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3FD023661D1D8D4000E8F63D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3FD023621D1D8D4000E8F63D /* Build configuration list for PBXProject "Ala_Facebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FD0235E1D1D8D4000E8F63D;
+			productRefGroup = 3FD023681D1D8D4000E8F63D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FD023661D1D8D4000E8F63D /* Ala_Facebook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FD023651D1D8D4000E8F63D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD0237A1D1D8D4100E8F63D /* LaunchScreen.storyboard in Resources */,
+				3F511D381D26E61D00A2F311 /* girl.jpg in Resources */,
+				3FD023771D1D8D4100E8F63D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04B71D87A2E76FB019F26D36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5742034A69F268D91E26D73C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ala_Facebook/Pods-Ala_Facebook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77536935DDD087637CF1605E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ala_Facebook/Pods-Ala_Facebook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FD023631D1D8D4000E8F63D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD023841D1D901300E8F63D /* ALF_ViewController.m in Sources */,
+				3FB379B31D2AC30F00045C30 /* DataManager.m in Sources */,
+				3FD0236F1D1D8D4000E8F63D /* AppDelegate.m in Sources */,
+				3FD0236C1D1D8D4000E8F63D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FD023781D1D8D4100E8F63D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD023791D1D8D4100E8F63D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FD0237C1D1D8D4100E8F63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FD0237D1D1D8D4100E8F63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FD0237F1D1D8D4100E8F63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31BCA724AE770CDC4A6A3FE /* Pods-Ala_Facebook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ala_Facebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brn.vk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FD023801D1D8D4100E8F63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3986529D9DDCA3F94BA4F0 /* Pods-Ala_Facebook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ala_Facebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brn.vk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FD023621D1D8D4000E8F63D /* Build configuration list for PBXProject "Ala_Facebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD0237C1D1D8D4100E8F63D /* Debug */,
+				3FD0237D1D1D8D4100E8F63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD0237E1D1D8D4100E8F63D /* Build configuration list for PBXNativeTarget "Ala_Facebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD0237F1D1D8D4100E8F63D /* Debug */,
+				3FD023801D1D8D4100E8F63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FD0235F1D1D8D4000E8F63D /* Project object */;
+}
