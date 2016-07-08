@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <VKSdk.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) VKSdk *sdkInstance;
+
+-(void)vkAuthorize;
 
 
 @end

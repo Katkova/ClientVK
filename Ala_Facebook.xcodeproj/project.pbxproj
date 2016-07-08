@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F511D381D26E61D00A2F311 /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F511D371D26E61D00A2F311 /* girl.jpg */; };
+		3F409A381D302749000D93E5 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F409A371D302749000D93E5 /* FeedViewController.m */; };
 		3FB379B31D2AC30F00045C30 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB379B21D2AC30F00045C30 /* DataManager.m */; };
 		3FD0236C1D1D8D4000E8F63D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0236B1D1D8D4000E8F63D /* main.m */; };
 		3FD0236F1D1D8D4000E8F63D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0236E1D1D8D4000E8F63D /* AppDelegate.m */; };
@@ -18,7 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F511D371D26E61D00A2F311 /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
+		3F409A361D302749000D93E5 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		3F409A371D302749000D93E5 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
 		3FB379B11D2AC30F00045C30 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
 		3FB379B21D2AC30F00045C30 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 		3FD023671D1D8D4000E8F63D /* Ala_Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ala_Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,13 +73,14 @@
 				3FD0236E1D1D8D4000E8F63D /* AppDelegate.m */,
 				3FD023821D1D901300E8F63D /* ALF_ViewController.h */,
 				3FD023831D1D901300E8F63D /* ALF_ViewController.m */,
-				3F511D371D26E61D00A2F311 /* girl.jpg */,
 				3FD023761D1D8D4100E8F63D /* Assets.xcassets */,
 				3FD023781D1D8D4100E8F63D /* LaunchScreen.storyboard */,
 				3FD0237B1D1D8D4100E8F63D /* Info.plist */,
 				3FD0236A1D1D8D4000E8F63D /* Supporting Files */,
 				3FB379B11D2AC30F00045C30 /* DataManager.h */,
 				3FB379B21D2AC30F00045C30 /* DataManager.m */,
+				3F409A361D302749000D93E5 /* FeedViewController.h */,
+				3F409A371D302749000D93E5 /* FeedViewController.m */,
 			);
 			path = Ala_Facebook;
 			sourceTree = "<group>";
@@ -169,7 +171,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FD0237A1D1D8D4100E8F63D /* LaunchScreen.storyboard in Resources */,
-				3F511D381D26E61D00A2F311 /* girl.jpg in Resources */,
 				3FD023771D1D8D4100E8F63D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FD023841D1D901300E8F63D /* ALF_ViewController.m in Sources */,
+				3F409A381D302749000D93E5 /* FeedViewController.m in Sources */,
 				3FB379B31D2AC30F00045C30 /* DataManager.m in Sources */,
 				3FD0236F1D1D8D4000E8F63D /* AppDelegate.m in Sources */,
 				3FD0236C1D1D8D4000E8F63D /* main.m in Sources */,

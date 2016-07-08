@@ -8,11 +8,15 @@
 
 #import "ALF_ViewController.h"
 #import "DataManager.h"
+#import "AppDelegate.h"
 
 @implementation ALF_ViewController
 
+
+
 -(void) submitLogIn{
-    
+    UIApplication *application = [UIApplication sharedApplication];
+    [(AppDelegate *)application.delegate vkAuthorize];
 }
 
 -(void) submit {
@@ -35,7 +39,7 @@
                                                                          error:nil];
                             }];
 
-}
+    }
 
 - (void) viewDidLoad {
     [super viewDidLoad];
